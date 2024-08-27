@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shower Thoughts Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="thought-box" role="region" aria-live="polite">
+            <p id="thought">Click the button to generate a shower thought!</p>
+        </div>
+        <button id="generateButton" onclick="generateThought()" aria-live="polite" aria-label="Generate a new thought">
+            <i class="fas fa-lightbulb"></i> Generate Thought
+        </button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
